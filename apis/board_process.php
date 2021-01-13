@@ -40,4 +40,3 @@ switch ($mode) {
 echo $mode;
 
 ?>
-<div> dkdkdkdk</div>
