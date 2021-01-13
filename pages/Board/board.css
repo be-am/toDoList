@@ -1,7 +1,39 @@
+.content {
+  border-top: 2px solid #87cefa;
+}
+
 #mustDo li {
+  display: flex;
   list-style: none;
+  height: 70px;
+  border: 1px solid #ccc;
+  font-size: 40px;
+  align-items: center;
+}
+#mustDo li:first-child {
+  border-top: none;
+}
+
+#mustDo li span {
+  margin-left: 20px;
+  width: 93%;
 }
 
 #mustDone li {
+  display: flex;
   list-style: none;
+  height: 70px;
+  border: 1px solid #ccc;
+  font-size: 40px;
+  align-items: center;
+}
+
+#mustDone .done span {
+  text-decoration: line-through;
+  color: #e2e2e2;
+}
+
+#mustDone li span {
+  margin-left: 20px;
+  width: 93%;
 }

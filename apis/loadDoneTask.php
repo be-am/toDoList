@@ -9,9 +9,9 @@ if(mysqli_num_rows($result) > 0){
     while($row = mysqli_fetch_array($result)){
 ?>
 
-<li>
+<li class = "done">
     <span class = "text"><?php echo $row['content'];?></span>
-    <i data-id = "<?php echo $row['id'];?>" id = "delBtn" class = "fas fa-trash-alt" ></i>
+    <div><i data-id = "<?php echo $row['id'];?>" id = "delBtn" class = "fas fa-trash-alt" ></i><div>
 </li>
 
 <?php

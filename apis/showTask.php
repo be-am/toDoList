@@ -11,7 +11,7 @@ if(mysqli_num_rows($result) > 0){
 
 <li>
     <span class = "text"><?php echo $row['content'];?></span>
-    <i data-id = "<?php echo $row['id'];?>" id = "doneBtn" class = "fas fa-times" ></i>
+    <div><i data-id = "<?php echo $row['id'];?>" id = "doneBtn" class = "fas fa-times" ></i></div>
 </li>
 
 <?php
